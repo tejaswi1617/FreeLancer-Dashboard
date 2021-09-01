@@ -1,0 +1,24 @@
+/**
+ * Author: Sanket Shah.
+ * Created On: 2021-07-20
+ * CSS file for Projects.
+ */
+
+.projects-container {
+    .button-container {
+        float: right;
+        height: 3rem;
+        display: inline-block;
+        margin-right: 0.5rem;
+    }
+
+    .data-table-container {
+        display: inline-block;
+        width: 100%;
+        height: calc(100% - 3.5rem);
+    }
+
+    .data-table-button {
+        display: flex;
+    }
+}

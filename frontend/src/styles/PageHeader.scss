@@ -1,0 +1,12 @@
+@import "./variable.scss";
+
+.page-header-title {
+    color: $fontColor;
+    font-size: $headerFontSize;
+    font-weight: bold;
+}
+
+.page-header-subtitle {
+    color: $subtextColor;
+    font-size: $subtextFontSize;
+}

@@ -1,0 +1,43 @@
+$containerHeight: 15rem;
+
+.invoice-generation-container {
+    .generate-button-container {
+        justify-content: center;
+    }
+    
+    .data-table-container {
+        display: inline-block;
+        width: 100%;
+        height: calc(100% - #{$containerHeight});
+        overflow-y: auto;
+    }
+
+    .invoice-generation-content {
+        height: $containerHeight;
+        display: inline-block;
+        width: 100%;  
+    }
+
+    .generate-forms {
+        height: 13rem;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .due-date-control {
+        display: inline-block;
+        width: 48%;
+        margin-right: 1rem;
+    }
+
+    .end-date-control {
+        display: inline-block;
+        width: 48%;
+        margin-right: 1rem;
+    }
+
+    .generate-buttons {
+        text-align: right;
+        margin-bottom: 1rem;
+    }
+}

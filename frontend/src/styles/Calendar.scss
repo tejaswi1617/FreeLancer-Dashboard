@@ -1,0 +1,80 @@
+// Author: Sanket Shah
+@import "./variable.scss";
+
+.calendar-container {
+    .calendar-content {
+        height: 100%;
+    }
+    .date-row {
+        height: 2rem;
+    }
+    .navigate-date {
+        padding: 0rem 0.8rem;
+
+        &:hover {
+            font-size: 1.4rem;
+        }
+    }
+
+    .add-row {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        padding: 0rem 1rem;
+
+        .add-text {
+            display: inline-block;
+            width: 75%;
+            padding-right: 0.5rem;
+            .input-control {
+                width: 100%;
+                
+            }
+        }
+
+        .add-button {
+            display: inline-block;
+            width: 25%;
+        }
+    }
+    .date-control {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .card-item-content {
+        margin: auto;
+    }
+    .card-item {
+        padding: 0.5rem;
+    }
+
+    .card-content-incomplete {
+        border: 1px solid $borderColor;
+        background: aliceblue;
+        margin-bottom: 1rem;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+        &:hover {
+            box-shadow: none;
+            border: 1px solid $primaryGrey;
+            cursor: pointer;
+        }
+    }
+
+    .card-content-complete {
+        border: 1px solid $borderColor;
+        background: $primaryBackground;
+        margin-bottom: 1rem;
+    }
+
+    .card-item-completed {
+        text-decoration-line: line-through;
+    }
+
+    .calendar-items {
+        height: calc(100% - 2rem - 3rem);
+        overflow: auto;
+    }
+}

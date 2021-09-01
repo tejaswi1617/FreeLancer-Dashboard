@@ -1,0 +1,23 @@
+@import "./variable.scss";
+
+.app-nav-bar-container {
+    background-color: $primaryBlue;
+}
+
+.app-nav-bar-text {
+    color: $white !important;
+    font-size: $textFontSize;
+    font-weight: bold;
+}
+
+.app-nav-bar-link {
+    color: $white !important;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0.5rem;
+
+    &:hover {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

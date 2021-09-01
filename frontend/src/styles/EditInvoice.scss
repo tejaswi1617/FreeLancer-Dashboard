@@ -1,0 +1,46 @@
+/**
+ * Author: Tejaswi Chaudhary.
+ * Created On: 2021-06-07
+ * Invoice Edit style.
+ */
+$containerHeight: 15rem;
+
+.edit-invoice-generation-container {
+    .generate-button-container {
+        justify-content: center;
+    }
+    
+    .data-table-container {
+        display: inline-block;
+        width: 100%;
+        height: calc(100% - #{$containerHeight});
+        overflow-y: auto;
+    }
+
+    .invoice-generation-content {
+      
+        display: inline-block;
+        width: 100%;  
+    }
+
+    .generate-forms {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .due-date-control {
+        display: inline-block;
+        width: 48%;
+        margin-right: 1rem;
+    }
+
+    .end-date-control {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .generate-buttons {
+        display: inline-block;
+        float: right;
+    }
+}

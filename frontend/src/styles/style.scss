@@ -1,0 +1,182 @@
+// Custom CSS Styling
+main{
+    min-height: 85vh;
+}
+
+@import "./variable.scss";
+
+.react-bootstrap-drawer{
+    z-index: 0!important;
+}
+
+.horizontal-break {
+    border-bottom: 1px solid $borderColor;
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    margin: 0.5rem 0rem;
+}
+
+.page-container {
+    width: 100%;
+    display: inline-block;
+    padding: 0.5rem;
+    height: calc(100vh - 56.22px);
+}
+
+.page-header-container {
+    margin: 0rem 0.5rem;
+    height: 3.5rem;
+}
+
+.page-content-container {
+    background: $white;
+    border-radius: 0.5rem;
+    height: calc(100% - 3.5rem);
+    box-shadow: $contentBoxShadow;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.page-content {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 1rem ;
+    display: inline-block;
+}
+
+.required {
+    &::after {
+        content: '*';
+        color: red;
+    }
+}
+
+.inline-date-control {
+    display: flex;
+
+    .start-date {
+        margin-right: 0.5rem;
+    }
+}
+
+.myborder{
+    border: 2px solid black;
+    padding: 7px 7px;
+  }
+  
+.inlineEle{
+    display:flex; 
+}
+  
+.leftAlign{
+    text-align: justify;
+    margin-left: 25px;
+}
+  
+.leftAlign1{
+    text-align: justify;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+  
+.topBorder{
+    border-top: 2px solid black;
+}
+  
+.heading{
+    text-align:center;
+    padding-top: 20px;
+}
+  
+.searchWidth{
+    width: 1000px;
+    margin-top: 30px;
+}
+  
+.topMargin{
+    margin-top: 20px;
+}
+  
+.alignLeft{
+    text-align: left;
+}
+  
+.alignRight{
+    text-align: right;
+}
+  
+.btnRightMargin{
+    margin-right: 100px;
+}
+  
+table,th,td{
+    border: 1px solid black;
+}
+  
+#mytable{
+    margin-top: 25px;
+}
+  
+.width-10{
+    width: 10%;
+}
+  
+.width-20{
+    width: 20%;
+}
+  
+  
+label{
+    font-size: inherit;
+    font-weight: 500;
+}
+  
+.margin1{
+    margin-left: 100px;
+}
+  
+.margin2{
+    margin-left: 100px;
+}
+  
+.margin3{
+    margin-left: 160px;
+}
+  
+.margin4{
+    margin-left: 110px;
+}
+  
+.margin5{
+    margin-left: 30px;
+}
+
+.add-project-btn{
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+select.form-control{
+    padding: 0;
+}
+
+.my-add-btn{
+    margin-bottom: 15px;
+}
+
+#bellIcon{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+    &:focus{
+        border: none;
+        box-shadow: none;
+    }
+    &::after{
+        display:none;
+    }
+}
